@@ -15628,13 +15628,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\erinm\\Development\\FixPeriodPain\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\erinm\\Development\\FixPeriodPain\\Pages\\Contact.cshtml",
+      "TargetPath": "Pages\\Contact.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\erinm\\Development\\FixPeriodPain\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\erinm\\Development\\FixPeriodPain\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

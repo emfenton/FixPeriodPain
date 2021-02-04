@@ -37,4 +37,4 @@ C:\Users\erinm\Development\FixPeriodPain\obj\Debug\net5.0\ref\FixPeriodPain.dll
 C:\Users\erinm\Development\FixPeriodPain\obj\Debug\net5.0\FixPeriodPain.pdb
 C:\Users\erinm\Development\FixPeriodPain\obj\Debug\net5.0\FixPeriodPain.genruntimeconfig.cache
 C:\Users\erinm\Development\FixPeriodPain\obj\Debug\net5.0\FixPeriodPain.csproj.CopyComplete
-C:\Users\erinm\Development\FixPeriodPain\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\erinm\Development\FixPeriodPain\obj\Debug\net5.0\Razor\Pages\Contact.cshtml.g.cs

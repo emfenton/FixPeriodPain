@@ -32,21 +32,21 @@ namespace FixPeriodPain.Pages
             }
 
             // create and send the mail here
-            private void SendMail(string mailbody)
-            {
-                using (var message = new MailMessage(Contact.Email, "me@mydomain.com"))
-                {
-                    message.To.Add(new MailAddress("me@mydomain.com"));
-                    message.From = new MailAddress(Contact.Email);
-                    message.Subject = "New E-Mail from my website";
-                    message.Body = mailbody;
+            // private void SendMail(string mailbody)
+            // {
+            //     using (var message = new MailMessage(Contact.Email, "me@mydomain.com"))
+            //     {
+            //         message.To.Add(new MailAddress("me@mydomain.com"));
+            //         message.From = new MailAddress(Contact.Email);
+            //         message.Subject = "New E-Mail from my website";
+            //         message.Body = mailbody;
 
-                    using (var smtpClient = new SmtpClient("mail.mydomain.com"))
-                        {
-                        smtpClient.Send(message);
-                        }
-                }
-            }
+            //         using (var smtpClient = new SmtpClient("mail.mydomain.com"))
+            //             {
+            //             smtpClient.Send(message);
+            //             }
+            //     }
+            // }
 
             return RedirectToPage("Index");
         }

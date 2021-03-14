@@ -20,15 +20,13 @@
 <h2>Enter your email address here and receive the first chapter in my guide to fix painful periods!</h2>
 
 
-<form action="/action_page.php">
+<form class="form-center" method="post">
     <div class="form-center">
-        <input type="text" id="email" name="email" value="Your email address">
+        <div asp-validation-summary="All"></div>
+
+        <input asp-for="Email.Email" placeholder="Your email address">
+        <span asp-validation-for="Email.Email"></span>
         <input type="submit" value="Submit">
     </div>    
 </form> 
-
-@*<p>If you click the "Submit" button, the form-data will be sent to a page called 
-    "/action_page.php".</p>*@
-
 </body>
-

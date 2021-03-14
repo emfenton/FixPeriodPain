@@ -80,6 +80,16 @@ h2 {
   flex-direction: row;
   display: flex;
   justify-content: center;
+  padding:8px;
+  box-sizing:border-box;
 }
+
+.signup-input {
+
+}
+
+
+
+
 
 

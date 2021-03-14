@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FixPeriodPain.Data;
+using FixPeriodPain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
@@ -11,7 +13,8 @@ namespace FixPeriodPain.Pages
     public class ContactModel : PageModel
     {
         [BindProperty]
-        public ContactFormModel Contact {get; set; }
+        public ContactFormModel Contact { get; set; }
+
 
         private readonly ILogger<ContactModel> _logger;
 
@@ -30,6 +33,11 @@ namespace FixPeriodPain.Pages
             {
                 return Page();
             }
+
+            
+
+
+
 
             // create and send the mail here
             // private void SendMail(string mailbody)
